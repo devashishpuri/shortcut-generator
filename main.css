@@ -1,0 +1,34 @@
+body{
+	font-family: "Gill Sans","Gill Sans MT";
+	background-color: #ecf0f1;
+}
+.pressedKey {
+	display: inline-block;
+	margin-left: 3%;
+}
+.pressedKeyCode {
+	font-size: 1000%;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #2c3e50;
+}
+.pressedKeyName {
+	font-size: 250%;
+    margin-top: 0;
+    text-align: center;
+    color: #34495e;
+}
+
+button {
+	padding: 1.5%;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: 0;
+    margin-left: 3%;
+}
+
+#addedShortcuts {
+	position: absolute;
+}
