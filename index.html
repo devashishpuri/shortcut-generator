@@ -5,7 +5,9 @@
  	<link rel="stylesheet" type="text/css" href="main.css">
  </head>
  <body>
- 	<div id='addedShortcuts'>
+ 	<div id='addedShortcutsContainer'>
+ 		<div id='addedShortcuts'>
+ 		</div>
  	</div>
  	<center id='keysContainer'>
     	<div class='pressedKey' id='pressedKey'>
@@ -16,7 +18,16 @@
     <center>
     	<button id='addShortcut'>Add Shortcut</button>
     </center>
-    <div id='genratedCode'></div>
+    <div id='genrateCodeContainer'>
+    	<div id='genrateCode'>          
+    		<u id='codeGenBt'>Generate Code</u>
+    	</div>
+    </div>
+    <div id='generatedCodeCon'>
+        <span id='generatedCodeConClose'>Close</span>
+        <div id='generatedCode'></div>
+    </div>
  	<script type="text/javascript" src="main.js"></script>
  </body>
  </html>
+ 
